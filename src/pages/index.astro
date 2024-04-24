@@ -39,7 +39,7 @@ const work = await Promise.all(
       <section>
         <article class="space-y-4">
           <p class="animate">
-            I'm a software engineer who loves solving complex problems with technology.
+            I'm a software engineer solving complex problems with technology.
           </p>
           <p class="animate">
             At Expos, a company I founded, we build mobile track and trace solutions for dangerous goods,
@@ -90,10 +90,10 @@ const work = await Promise.all(
                 {dateRange(entry.data.dateStart, entry.data.dateEnd)}
               </div>
               <div class="font-semibold text-black dark:text-white">
-                {entry.data.company}
+                {entry.data.role}
               </div>
               <div class="text-sm opacity-75">
-                {entry.data.role}
+                {entry.data.company}
               </div>
               <article>
                 <entry.Content />

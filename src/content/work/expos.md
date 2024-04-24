@@ -1,5 +1,5 @@
 ---
-company: "Export Track & Trace"
+company: "Expos Track & Trace"
 role: "Founding Engineer"
 dateStart: "03/01/2018"
 dateEnd: "Current"
